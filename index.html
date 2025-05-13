@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Event Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🎯 JavaScript Interactivity Playground</h1>
+
+  <!-- Event Handling -->
+  <button id="clickBtn">Click Me</button>
+  <div id="hoverBox">Hover over me</div>
+  <input type="text" id="keyInput" placeholder="Type here">
+  <button id="secretBtn">Secret Button</button>
+
+  <!-- Interactive Elements -->
+  <button onclick="toggleTab()">Toggle Content</button>
+  <div id="tabContent">This is tab content.</div>
+
+  <img id="galleryImage" src="https://via.placeholder.com/200?text=Image+1" width="200">
+  <button onclick="nextImage()">Next Image</button>
+
+  <!-- Form -->
+  <form id="myForm">
+    <input type="text" id="username" placeholder="Username" required><br>
+    <input type="email" id="email" placeholder="Email"><br>
+    <input type="password" id="password" placeholder="Password"><br>
+    <button type="submit">Submit</button>
+  </form>
+  <p id="formMsg"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
